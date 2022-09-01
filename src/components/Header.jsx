@@ -60,7 +60,7 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-            <div className="mobile-menu">
+            {/* <div className="mobile-menu">
                 {routeList.map((routeItem) => (
                     <Link to={routeItem.route}>
                         <li
@@ -74,7 +74,7 @@ const Header = () => {
                         </li>
                     </Link>
                 ))}
-            </div>
+            </div> */}
         </>
     );
 };
