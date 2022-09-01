@@ -162,3 +162,70 @@
     align-items: center;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 1024px) {
+    .Section1 {
+        height: unset;
+        .main-txt {
+            padding: 72px 20px;
+
+            p {
+                color: #999999;
+            }
+        }
+        .features-testimonials {
+            transform: unset;
+
+            .features {
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 1rem;
+                padding: 72px 20px;
+            }
+        }
+    }
+    .exam-logos {
+        padding: 1rem 20px;
+        min-height: 100px;
+        flex-wrap: wrap;
+        gap: 32px;
+
+        img {
+            height: 40px;
+        }
+    }
+
+    .EntranceBanner {
+        text-align: center;
+        height: 342px;
+        padding: 2rem 20px;
+
+        .days-div {
+            .number {
+                font-size: 51px;
+                line-height: 72px;
+            }
+
+            p {
+                font-size: 25px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .FacilitiesSection {
+        padding: 2rem 20px;
+        height: unset;
+
+        .images {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .SubscribeSection {
+        padding: 4rem 20px;
+    }
+}
