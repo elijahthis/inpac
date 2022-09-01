@@ -64,11 +64,13 @@
             }
         }
 
-        .mobile-menu,
         .mobile-menu-icon {
             display: none;
         }
     }
+}
+.mobileMenu {
+    display: none;
 }
 
 .MainBanner {
@@ -168,20 +170,47 @@
             }
             .mobile-menu-icon {
                 display: block;
+                cursor: pointer;
             }
         }
     }
-    .mobile-menu {
+    .mobileMenu {
+        display: block;
         width: 100vw;
         height: 100vh;
         background-color: #fff;
         position: fixed;
         top: 0;
-        left: 0;
+        left: 100vw;
         z-index: 5;
-        padding: 2.5rem 20px;
+        padding: 4rem 20px;
+        transition: left 0.5s;
 
-        
+        &--open {
+            left: 0;
+        }
+
+        .top-actions {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        ul {
+            list-style-type: none;
+
+            a {
+                color: #1a1a1a;
+                text-decoration: none;
+            }
+
+            li {
+                padding-bottom: 2rem;
+            }
+        }
     }
 
     .Footer {
