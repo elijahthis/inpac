@@ -15,7 +15,7 @@ const Header = () => {
         { name: "Contact", route: "/contact" },
     ];
 
-    console.log(navigate);
+    console.log(window.location.pathname);
 
     return (
         <header className="Header">
@@ -37,7 +37,16 @@ const Header = () => {
                     <ul>
                         {routeList.map((routeItem) => (
                             <Link to={routeItem.route}>
-                                <li>{routeItem.name.toUpperCase()}</li>
+                                <li
+                                    className={
+                                        window.location.pathname ===
+                                        routeItem.route
+                                            ? "active"
+                                            : ""
+                                    }
+                                >
+                                    {routeItem.name.toUpperCase()}
+                                </li>
                             </Link>
                         ))}
                     </ul>
