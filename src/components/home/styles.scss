@@ -1,0 +1,114 @@
+.Hero {
+    height: calc(100vh - 125px);
+    min-height: 650px;
+
+    .big-bg {
+        height: calc(100% - 92px);
+        background-image: url(../../assets/images/bg-1.png);
+    }
+
+    .bottom-blue {
+        height: 92px;
+        background-color: #18206b;
+    }
+}
+
+.Section1 {
+    text-align: center;
+    height: 100vh;
+    min-height: 768px;
+
+    .main-txt {
+        padding: 72px 9.722vw;
+        background: #f4f4f4;
+        padding-bottom: 120px;
+        h2 {
+            margin-bottom: 38px;
+        }
+
+        p {
+            margin-bottom: 22px;
+        }
+    }
+
+    .features-testimonials {
+        transform: translateY(-50%);
+    }
+
+    .features {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4.24vw;
+        align-items: flex-start;
+        padding: 72px 9.722vw;
+        margin-bottom: 2rem;
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        .feature {
+            padding: 25px;
+            background-color: #ffffff;
+        }
+    }
+
+    .testimonials {
+        transform: translateY(-50%);
+    }
+}
+
+.EntranceBanner {
+    text-align: center;
+    height: 342px;
+    background-image: url(/assets/images/entrance-bg.png);
+    padding: 2rem;
+
+    * {
+        color: #ffffff;
+    }
+    h2 {
+        margin-bottom: 1.2rem;
+    }
+
+    .days-div {
+        p {
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 32px;
+        }
+        .number {
+            font-weight: 600;
+            font-size: 72px;
+            line-height: 96px;
+            color: #fff701;
+            margin-top: 2rem;
+            // margin-bottom: 0.5rem;
+        }
+    }
+}
+
+.FacilitiesSection {
+    text-align: center;
+    height: 100vh;
+    min-height: 768px;
+    padding: 2rem 9.722vw;
+    background: #f4f4f4;
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1.2rem;
+        flex-wrap: wrap;
+        margin-top: 56px;
+
+        img {
+            width: 31%;
+        }
+    }
+}
