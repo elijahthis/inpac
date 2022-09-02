@@ -9,12 +9,6 @@ import {
     Autoplay,
     EffectFade,
 } from "swiper";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/effect-fade";
-import "swiper/css/scrollbar";
 
 // react-reveal
 import { Flip, Fade } from "react-reveal";

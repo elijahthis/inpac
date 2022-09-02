@@ -1,4 +1,14 @@
 import { FeatureIcon1 } from "../../svgs";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import {
+    Navigation,
+    Pagination,
+    Scrollbar,
+    A11y,
+    Autoplay,
+    EffectFade,
+} from "swiper";
 // react-reveal
 import { Flip, Fade } from "react-reveal";
 
@@ -7,6 +17,11 @@ export const Section1 = () => {
         { name: "Innovation", icon: <FeatureIcon1 /> },
         { name: "Innovation", icon: <FeatureIcon1 /> },
         { name: "Innovation", icon: <FeatureIcon1 /> },
+    ];
+    const testimonialList = [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
     ];
     return (
         <section className="Section1">
@@ -45,8 +60,34 @@ export const Section1 = () => {
                         </div>
                     ))}
                 </div>
-                <div className="testimonials">
-                    <h2>Testimonials</h2>
+            </div>
+            <div className="testimonials">
+                <h2>Testimonials</h2>
+                <div className="quotes">
+                    <Swiper
+                        slidesPerView={1}
+                        modules={[
+                            Navigation,
+                            Pagination,
+                            Scrollbar,
+                            A11y,
+                            Autoplay,
+                            EffectFade,
+                        ]}
+                        spaceBetween={0}
+                        loop={true}
+                        navigation={true}
+                        pagination={{ clickable: true }}
+                        // autoplay={true}
+                        speed={500}
+                        // effect={"fade"}
+                    >
+                        {testimonialList.map((item, ind) => (
+                            <SwiperSlide key={ind}>
+                                <p className="testimonial">{`"${item}"`}</p>
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
                 </div>
             </div>
         </section>

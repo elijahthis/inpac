@@ -16,7 +16,7 @@ const Contact = () => (
                     </div>
                     <div>
                         <p>Address</p>
-                        <p>1 Landbridge Avenue , Ado odo ota, Ogun, Nigeria</p>
+                        <p>1 Landbridge Avenue, Ado odo ota, Ogun, Nigeria</p>
                     </div>
                     <div>
                         <p>Follow us</p>

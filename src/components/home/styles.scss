@@ -91,8 +91,8 @@
 
 .Section1 {
     text-align: center;
-    height: 100vh;
-    min-height: 768px;
+    min-height: 100vh;
+    // min-height: 768px;
 
     .main-txt {
         padding: 72px 9.722vw;
@@ -130,8 +130,31 @@
         }
     }
 
+    .swiper-slide {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+
+    .swiper {
+        max-width: 800px;
+        height: 120px;
+    }
+
     .testimonials {
-        transform: translateY(-50%);
+        // transform: translateY(-50%);
+        h2 {
+            margin-bottom: 1rem;
+        }
+
+        .quotes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        p {
+            // width: 80%;
+            padding: 2rem 6rem;
+        }
     }
 }
 
