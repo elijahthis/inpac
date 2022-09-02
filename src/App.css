@@ -16,6 +16,16 @@ p {
 
 }
 
+
+h1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 52px;
+  color: #000000;
+}
+
 h2 {
   font-family: 'Open Sans';
   font-style: normal;
@@ -24,6 +34,7 @@ h2 {
   line-height: 48px;
   color: #000000;
 }
+
 
 @media screen and (max-width: 1024px) {
   h2 {

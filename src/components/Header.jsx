@@ -13,7 +13,7 @@ const Header = () => {
     const [sideOpen, setSideOpen] = useState(false);
     const routeList = [
         { name: "Home", route: "/" },
-        { name: "About Us", route: "/" },
+        { name: "About Us", route: "/about-us" },
         { name: "Events", route: "/events" },
         { name: "Gallery", route: "/gallery" },
         { name: "Contact", route: "/contact" },
