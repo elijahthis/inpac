@@ -1,5 +1,7 @@
 import { MainBanner } from "../components/MainBanner";
 import facility1 from "../assets/images/facility-1.png";
+import "./styles.scss";
+import { Flip, Fade, Bounce } from "react-reveal";
 
 const OurActivities = () => {
     const eventList = [
@@ -27,15 +29,17 @@ const OurActivities = () => {
         <div className="OurActivities">
             <MainBanner title="Our Activities" />
             <div className="main-block">
-                {eventList.map((eventItem) => (
-                    <div className="eventItem">
-                        <img src={eventItem.img} alt="" srcset="" />
-                        <div className="bulk">
-                            <h3>{eventItem.title}</h3>
-                            <button>{eventItem.date}</button>
-                            <p>{eventItem.desc}</p>
+                {eventList.map((eventItem, ind) => (
+                    <Bounce right delay={300 * ind} key={ind}>
+                        <div className="eventItem">
+                            <img src={eventItem.img} alt="" srcset="" />
+                            <div className="bulk">
+                                <h3>{eventItem.title}</h3>
+                                <button>{eventItem.date}</button>
+                                <p>{eventItem.desc}</p>
+                            </div>
                         </div>
-                    </div>
+                    </Bounce>
                 ))}
             </div>
         </div>

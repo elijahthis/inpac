@@ -16,6 +16,9 @@ import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import "swiper/css/scrollbar";
 
+// react-reveal
+import { Flip, Fade } from "react-reveal";
+
 const Hero = () => (
     <section className="Hero">
         <Swiper
@@ -50,8 +53,12 @@ const Hero = () => (
         </Swiper>
         <div className="bottom-blue"></div>
         <div className="hero-text">
-            <h1>INTOUCH PRIVATE ACADEMY</h1>
-            <p>Think quality. Think Intouch</p>
+            <Flip bottom>
+                <h1>INTOUCH PRIVATE ACADEMY</h1>
+            </Flip>
+            <Fade bottom delay={1000}>
+                <p>Think quality. Think Intouch</p>
+            </Fade>
         </div>
     </section>
 );
