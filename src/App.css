@@ -46,6 +46,12 @@ h3 {
 
 
 @media screen and (max-width: 1024px) {
+  h1 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+  }
+
   h2 {
     font-size: 25px;
     line-height: 32px;

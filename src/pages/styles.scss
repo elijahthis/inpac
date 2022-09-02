@@ -135,6 +135,33 @@
     }
 }
 
+.Error404 {
+    padding: 100px 9.722vw;
+    height: calc(100vh - 75px);
+
+    h1 {
+        margin-bottom: 1.5rem;
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
+
+    button {
+        padding: 12px 45px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffffff;
+        background: #18206b;
+        border-radius: 5px;
+        border: 0;
+        cursor: pointer;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .Contact {
         .Contact-grid {
@@ -163,5 +190,9 @@
         .main-block {
             padding: 7x2px 20px;
         }
+    }
+
+    .Error404 {
+        padding: 100px 20px;
     }
 }

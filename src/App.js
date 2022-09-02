@@ -1,6 +1,13 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, Gallery, Contact, About, OurActivities } from "./pages";
+import {
+    Home,
+    Gallery,
+    Contact,
+    About,
+    OurActivities,
+    Error404,
+} from "./pages";
 import Header from "./components/Header";
 import ExamLogos from "./components/ExamLogos";
 import Footer from "./components/Footer";
@@ -17,6 +24,7 @@ function App() {
                         <Route path="gallery" element={<Gallery />} />
                         <Route path="contact" element={<Contact />} />
                         <Route path="events" element={<OurActivities />} />
+                        <Route path="*" element={<Error404 />} />
                     </Route>
                 </Routes>
                 <ExamLogos />

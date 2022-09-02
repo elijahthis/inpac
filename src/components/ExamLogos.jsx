@@ -4,7 +4,7 @@ import exam3 from "../assets/images/exam-3.png";
 import exam4 from "../assets/images/exam-4.png";
 
 const ExamLogos = () => {
-    const examLogos = [exam1, exam2, exam3, exam4];
+    const examLogos = [exam4, exam1, exam2, exam3];
 
     return (
         <div className="ExamLogos">
