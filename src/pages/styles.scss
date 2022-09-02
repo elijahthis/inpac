@@ -51,3 +51,13 @@
         }
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .Contact {
+        .Contact-grid {
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 40px 20px;
+        }
+    }
+}
