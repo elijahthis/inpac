@@ -2,6 +2,15 @@ import { MainBanner } from "../components/MainBanner";
 import "./styles.scss";
 // react-reveal
 import { Flip, Fade, Bounce } from "react-reveal";
+import {
+    BsTelephoneFill,
+    BsTwitter,
+    BsFacebook,
+    BsInstagram,
+    BsWhatsapp,
+} from "react-icons/bs";
+import { IoLocation } from "react-icons/io5";
+import { GrMail } from "react-icons/gr";
 
 const Contact = () => (
     <div className="Contact">
@@ -9,17 +18,27 @@ const Contact = () => (
         <Fade bottom delay={500}>
             <div className="Contact-grid">
                 <div className="left-contact">
-                    <div>Phone +23234345344</div>
-                    <div>
-                        <p>Email</p>
+                    <div className="flex">
+                        <BsTelephoneFill /> <p>+23234345344</p>
+                    </div>
+                    <div className="flex">
+                        <BsWhatsapp /> <p>+23234345344</p>
+                    </div>
+                    <div className="flex">
+                        <GrMail />
                         <p>intouchschools2008@gmail.com</p>
                     </div>
-                    <div>
-                        <p>Address</p>
+                    <div className="flex">
+                        <IoLocation />
                         <p>1 Landbridge Avenue, Ado odo ota, Ogun, Nigeria</p>
                     </div>
                     <div>
-                        <p>Follow us</p>
+                        <p className="title">Follow us</p>
+                        <div className="icons">
+                            <BsTwitter />
+                            <BsFacebook />
+                            <BsInstagram />
+                        </div>
                     </div>
                 </div>
                 <form
