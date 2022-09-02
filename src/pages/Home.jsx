@@ -3,6 +3,7 @@ import Section1 from "../components/home/Section1";
 import EntranceBanner from "../components/home/EntranceBanner";
 import FacilitiesSection from "../components/home/FacilitiesSection";
 import SubscribeSection from "../components/home/SubscribeSection";
+import ExamLogos from "../components/ExamLogos";
 import Footer from "../components/Footer";
 
 const Home = () => (
@@ -12,7 +13,6 @@ const Home = () => (
         <EntranceBanner />
         <FacilitiesSection />
         <SubscribeSection />
-        <Footer />
     </div>
 );
 

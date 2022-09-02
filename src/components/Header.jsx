@@ -80,6 +80,11 @@ const Header = () => {
                         <Link
                             to={routeItem.route}
                             onClick={() => setSideOpen(false)}
+                            className={
+                                window.location.pathname === routeItem.route
+                                    ? "active"
+                                    : ""
+                            }
                         >
                             <li>{routeItem.name.toUpperCase()}</li>
                         </Link>

@@ -24,6 +24,9 @@
             align-items: center;
             gap: 0.5rem;
         }
+        p {
+            color: #ffffff;
+        }
     }
 
     .main-bar {
@@ -95,6 +98,10 @@
     color: #ffffff;
     > * {
         padding: 0 9.722vw;
+    }
+
+    p {
+        color: #ffffff;
     }
 
     .bulk {
@@ -210,7 +217,18 @@
             li {
                 padding-bottom: 2rem;
             }
+
+            .active {
+                color: #18206b;
+                font-weight: 600;
+            }
         }
+    }
+
+    .MainBanner {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 48px;
     }
 
     .Footer {
