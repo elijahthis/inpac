@@ -139,9 +139,11 @@
         max-width: 800px;
         height: 120px;
     }
-
+    .swiper-pagination {
+        margin-top: 1rem;
+    }
     .testimonials {
-        // transform: translateY(-50%);
+        transform: translateY(-50%);
         h2 {
             margin-bottom: 1rem;
         }
@@ -311,6 +313,16 @@
                 gap: 1rem;
                 padding: 72px 20px;
             }
+        }
+
+        .swiper {
+            max-width: 100%;
+            height: 120px;
+        }
+        .swiper-button-next,
+        .swiper-button-prev,
+        .swiper-pagination {
+            display: none;
         }
     }
     .ExamLogos {
