@@ -1,247 +1,247 @@
 .Header {
-    .blue-bar {
-        height: 45px;
-        background-color: #18206b;
-        color: #ffffff;
-        z-index: 2;
+  .blue-bar {
+    height: 45px;
+    background-color: #18206b;
+    color: #ffffff;
+    z-index: 2;
 
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 2rem;
-        padding: 0 9.722vw;
-
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 24px;
-        position: fixed;
-        top: 0;
-        width: 100%;
-
-        div {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        p {
-            color: #ffffff;
-        }
-    }
-
-    .main-bar {
-        padding: 0 9.722vw;
-        height: 80px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 45px;
-
-        nav ul {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 4rem;
-
-            list-style-type: none;
-
-            .active {
-                // color: #18206b;
-                border-bottom: 2px solid #18206b;
-            }
-
-            li {
-                padding: 0.5rem 0;
-                border-bottom: 2px solid transparent;
-                transition: all 0.5s;
-
-                &:hover {
-                    border-bottom: 2px solid #18206b;
-                }
-            }
-
-            a {
-                color: #000000;
-                text-decoration: none;
-            }
-        }
-
-        .mobile-menu-icon {
-            display: none;
-        }
-    }
-}
-.mobileMenu {
-    display: none;
-}
-
-.MainBanner {
-    text-align: center;
-    height: 300px;
-    background-image: url(/assets/images/entrance-bg.png);
-    padding: 2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    gap: 2rem;
+    padding: 0 9.722vw;
 
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 51px;
-    line-height: 96px;
-    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    p {
+      color: #ffffff;
+    }
+  }
+
+  .main-bar {
+    padding: 0 9.722vw;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 4rem;
+
+      list-style-type: none;
+
+      .active {
+        // color: #18206b;
+        border-bottom: 2px solid #18206b;
+      }
+
+      li {
+        padding: 0.5rem 0;
+        border-bottom: 2px solid transparent;
+        transition: all 0.5s;
+
+        &:hover {
+          border-bottom: 2px solid #18206b;
+        }
+      }
+
+      a {
+        color: rgba(0, 0, 0, 0.5);
+        text-decoration: none;
+      }
+    }
+
+    .mobile-menu-icon {
+      display: none;
+    }
+  }
+}
+.mobileMenu {
+  display: none;
+}
+
+.MainBanner {
+  text-align: center;
+  height: 300px;
+  background-image: url(/assets/images/entrance-bg.png);
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 51px;
+  line-height: 96px;
+  color: #ffffff;
 }
 
 .Footer {
+  color: #ffffff;
+  > * {
+    padding: 0 9.722vw;
+  }
+
+  p {
     color: #ffffff;
-    > * {
-        padding: 0 9.722vw;
+  }
+
+  .bulk {
+    background-color: #18206b;
+    padding-top: 81px;
+    padding-bottom: 2rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+
+    .logo-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 28px;
+
+      .social-media {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+      }
     }
 
-    p {
-        color: #ffffff;
-    }
-
-    .bulk {
-        background-color: #18206b;
-        padding-top: 81px;
-        padding-bottom: 2rem;
-
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 1.5rem;
-
-        .logo-link {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 28px;
-
-            .social-media {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                gap: 1rem;
-            }
-        }
-
-        .list {
-            .title {
-                font-weight: 600;
-                font-size: 18px;
-                line-height: 24px;
-                margin-bottom: 1rem;
-            }
-            > div {
-                margin-bottom: 0.75rem;
-
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                gap: 0.5rem;
-            }
-        }
-    }
-
-    .bottom {
-        padding: 1rem 9.722vw;
-        background-color: #161d60;
+    .list {
+      .title {
         font-weight: 600;
-        font-size: 12px;
-        line-height: 15px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 1rem;
+      }
+      > div {
+        margin-bottom: 0.75rem;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+      }
     }
+  }
+
+  .bottom {
+    padding: 1rem 9.722vw;
+    background-color: #161d60;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .Header {
-        .blue-bar {
-            padding: 0 20px;
-            * {
-                font-weight: 500;
-                font-size: 10px;
-                line-height: 24px;
-            }
-        }
-        .main-bar {
-            padding: 0 20px;
-            height: 75px;
-
-            img {
-                width: 38px;
-            }
-
-            nav {
-                display: none;
-            }
-            .mobile-menu-icon {
-                display: block;
-                cursor: pointer;
-            }
-        }
+  .Header {
+    .blue-bar {
+      padding: 0 20px;
+      * {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 24px;
+      }
     }
-    .mobileMenu {
+    .main-bar {
+      padding: 0 20px;
+      height: 75px;
+
+      img {
+        width: 38px;
+      }
+
+      nav {
+        display: none;
+      }
+      .mobile-menu-icon {
         display: block;
-        width: 100vw;
-        height: 100vh;
-        background-color: #fff;
-        position: fixed;
-        top: 0;
-        left: 100vw;
-        z-index: 5;
-        padding: 4rem 20px;
-        transition: left 0.5s;
+        cursor: pointer;
+      }
+    }
+  }
+  .mobileMenu {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    z-index: 5;
+    padding: 4rem 20px;
+    transition: left 0.5s;
 
-        &--open {
-            left: 0;
-        }
-
-        .top-actions {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-            gap: 1rem;
-            margin-bottom: 3rem;
-        }
-
-        ul {
-            list-style-type: none;
-
-            a {
-                color: #1a1a1a;
-                text-decoration: none;
-            }
-
-            li {
-                padding-bottom: 2rem;
-            }
-
-            .active {
-                color: #18206b;
-                font-weight: 600;
-            }
-        }
+    &--open {
+      left: 0;
     }
 
-    .MainBanner {
+    .top-actions {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 3rem;
+    }
+
+    ul {
+      list-style-type: none;
+
+      a {
+        color: #1a1a1a;
+        text-decoration: none;
+      }
+
+      li {
+        padding-bottom: 2rem;
+      }
+
+      .active {
+        color: #18206b;
         font-weight: 600;
-        font-size: 36px;
-        line-height: 48px;
+      }
+    }
+  }
+
+  .MainBanner {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .Footer {
+    color: #ffffff;
+    > * {
+      padding: 0 20px;
     }
 
-    .Footer {
-        color: #ffffff;
-        > * {
-            padding: 0 20px;
-        }
-
-        .bulk {
-            display: flex;
-            flex-direction: column;
-            align-items: stretch;
-            gap: 48px;
-        }
+    .bulk {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 48px;
     }
+  }
 }
