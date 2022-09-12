@@ -47,7 +47,13 @@ const Hero = () => (
         <p>Think quality. Think Intouch</p>
       </Fade>
       <Fade bottom delay={1000}>
-        <button>Enroll Now</button>
+        <a
+          href="https://wa.me/+2347033417675"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <button>Enroll Now</button>
+        </a>
       </Fade>
     </div>
   </section>

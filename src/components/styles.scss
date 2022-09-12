@@ -3,7 +3,7 @@
     height: 45px;
     background-color: #18206b;
     color: #ffffff;
-    z-index: 2;
+    z-index: 3;
 
     display: flex;
     flex-direction: row;
@@ -26,6 +26,14 @@
     }
     p {
       color: #ffffff;
+    }
+    a {
+      color: #ffffff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
@@ -65,6 +73,35 @@
         color: rgba(0, 0, 0, 0.5);
         text-decoration: none;
       }
+      .divLink {
+        position: relative;
+
+        &__drop {
+          position: absolute;
+          top: 120%;
+          left: -50%;
+          background: #ffffff;
+          z-index: 2;
+          width: max-content;
+          height: 0;
+          overflow: hidden;
+          padding: 0;
+          transition: all 0.5s;
+
+          &--open {
+            height: 120px;
+            padding: 1rem 0;
+          }
+
+          &__item {
+            padding: 0.75rem 2rem;
+            &:hover {
+              text-decoration: underline;
+              cursor: pointer;
+            }
+          }
+        }
+      }
     }
 
     .mobile-menu-icon {
@@ -80,11 +117,11 @@
   text-align: center;
   height: 300px;
   background-image: url(/assets/images/entrance-bg.png);
-  padding: 2rem;
+  padding: 2rem 9.722vw;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 
   font-family: "Open Sans";
   font-style: normal;
@@ -92,10 +129,22 @@
   font-size: 51px;
   line-height: 96px;
   color: #ffffff;
+
+  .close-wrapper {
+    padding-left: 22px;
+    border-left: 8px solid #18206b;
+    line-height: 96px;
+  }
 }
 
 .Footer {
   color: #ffffff;
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
   > * {
     padding: 0 9.722vw;
   }
@@ -158,6 +207,7 @@
   .Header {
     .blue-bar {
       padding: 0 20px;
+      gap: 1rem;
       * {
         font-weight: 500;
         font-size: 10px;
@@ -210,7 +260,8 @@
       list-style-type: none;
 
       a {
-        color: #1a1a1a;
+        color: #656565;
+        font-weight: 500;
         text-decoration: none;
       }
 
@@ -222,6 +273,10 @@
         color: #18206b;
         font-weight: 600;
       }
+
+      .subItem {
+        color: #797979;
+      }
     }
   }
 
@@ -229,10 +284,12 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 48px;
+    padding: 2rem 20px;
   }
 
   .Footer {
     color: #ffffff;
+
     > * {
       padding: 0 20px;
     }

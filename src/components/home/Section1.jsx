@@ -1,4 +1,4 @@
-import { FeatureIcon1 } from "../../svgs";
+import { FeatureIcon1, FeatureIcon2, FeatureIcon3 } from "../../svgs";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
@@ -15,8 +15,8 @@ import { Flip, Fade } from "react-reveal";
 export const Section1 = () => {
   const featureList = [
     { name: "Innovation", icon: <FeatureIcon1 /> },
-    { name: "Innovation", icon: <FeatureIcon1 /> },
-    { name: "Innovation", icon: <FeatureIcon1 /> },
+    { name: "Innovation", icon: <FeatureIcon2 /> },
+    { name: "Innovation", icon: <FeatureIcon3 /> },
   ];
   const testimonialList = [
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
@@ -31,20 +31,23 @@ export const Section1 = () => {
         </Flip>
         <Fade bottom delay={1000}>
           <p>
-            At Inpac Schools, we provide the best educational experience for our
-            students, education in Honeyland Schools is well rounded as we train
-            a total child. Our mission is to produce students who can think for
-            themselves, respect dignity of labour and appreciate good values of
-            life. To inspire the children with a desire for achievement and
-            self- improvement both at school and in later life.
+            You sought excellence and you found us, it is with great optimism I
+            welcome our new and returning staff and student, your desire to be a
+            part of this institution and what she represents portrays your
+            commitment to building yourself to the ideal norm. The school has
+            created frameworks that work with openness, wellbeing and
+            responsiveness to students requirements. We will utilize various
+            modalities - mixed, on the web and eye to eye - and our profoundly
+            prepared and serious workforce and support staff stand prepared to
+            work with your intellectual and self-improvement.
           </p>
           <p>
-            To impact both mental and physical skills and abilities necessary to
-            live and contribute to the development of the environment and
-            society at large. We encourage intellectual curiosity,
-            entrepreneurial spirit and we foster a real sense of communal
-            endeavor. We are an inclusive, positive, stimulating and an
-            open-minded community.
+            The school is still committed to your holistic development and we
+            are guided by the principles of our faith and seek to inculcate
+            values and attitudes that promote the growth and development of our
+            students, our institution and the country. Our quintessential
+            co-curricular program offers assorted open doors for you to
+            investigate your inclinations and to foster authority abilities.
           </p>
         </Fade>
       </div>

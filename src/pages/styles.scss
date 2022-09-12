@@ -1,226 +1,234 @@
 .Contact {
-    .Contact-grid {
-        display: grid;
-        grid-template-columns: 34fr 66fr;
-        gap: 7.3vw;
-        padding: 100px 9.722vw;
+  .Contact-grid {
+    display: grid;
+    grid-template-columns: 34fr 66fr;
+    gap: 7.3vw;
+    padding: 100px 9.722vw;
+  }
+
+  .left-contact {
+    .flex {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+
+      svg {
+        color: #1a1a1a;
+      }
+    }
+    a {
+      color: #999999;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
-    .left-contact {
-        .flex {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 0.75rem;
-            margin-bottom: 1rem;
-
-            svg {
-                color: #1a1a1a;
-            }
-        }
-
-        .title {
-            color: #1a1a1a;
-        }
-
-        .icons {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 1rem;
-            margin: 0.75rem 0;
-
-            * {
-                cursor: pointer;
-                color: #1a1a1a;
-            }
-        }
+    .title {
+      color: #1a1a1a;
     }
 
-    .ContactForm {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 40px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 24px;
-        color: #999999;
+    .icons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+      margin: 0.75rem 0;
 
-        .desc {
-            color: #3a3a3a;
-        }
-
-        label {
-            display: flex;
-            flex-direction: column;
-            align-items: stretch;
-            gap: 22px;
-
-            input,
-            textarea {
-                padding: 1rem;
-                background: #f4f4f4;
-                border: 0;
-                outline: 0;
-                resize: none;
-            }
-        }
-        button {
-            padding: 13px 46px;
-            cursor: pointer;
-            background: #18206b;
-            border-radius: 5px;
-            color: #ffffff;
-            font-family: "Montserrat";
-            font-style: normal;
-            font-weight: 500;
-            border: 0;
-        }
+      * {
+        cursor: pointer;
+        color: #1a1a1a;
+      }
     }
+  }
+
+  .ContactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+
+    .desc {
+      color: #3a3a3a;
+    }
+
+    label {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 22px;
+
+      input,
+      textarea {
+        padding: 1rem;
+        background: #f4f4f4;
+        border: 0;
+        outline: 0;
+        resize: none;
+      }
+    }
+    button {
+      padding: 13px 46px;
+      cursor: pointer;
+      background: #18206b;
+      border-radius: 5px;
+      color: #ffffff;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      border: 0;
+    }
+  }
 }
 
 .OurActivities {
-    .main-block {
-        padding: 72px 9.722vw;
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 64px;
+  .main-block {
+    padding: 72px 9.722vw;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 64px;
 
-        .eventItem {
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            gap: 6.9vw;
+    .eventItem {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 6.9vw;
 
-            img {
-                width: 24.3vw;
-            }
+      img {
+        width: 24.3vw;
+      }
 
-            .bulk {
-                h3 {
-                    margin-bottom: 1rem;
-                }
-
-                button {
-                    margin-bottom: 2rem;
-                    padding: 12px 45px;
-                    font-family: "Montserrat";
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 14px;
-                    line-height: 24px;
-                    color: #ffffff;
-                    background: #18206b;
-                    border-radius: 5px;
-                    border: 0;
-                }
-            }
+      .bulk {
+        h3 {
+          margin-bottom: 1rem;
         }
+
+        button {
+          margin-bottom: 2rem;
+          padding: 12px 45px;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 24px;
+          color: #ffffff;
+          background: #18206b;
+          border-radius: 5px;
+          border: 0;
+        }
+      }
     }
+  }
 }
 
 .Gallery {
-    .main-block {
-        padding: 72px 9.722vw;
+  .main-block {
+    padding: 72px 9.722vw;
 
-        .image-batch {
-            margin-bottom: 72px;
+    .image-batch {
+      margin-bottom: 72px;
 
-            > div {
-                display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-                gap: 20px;
-            }
-            h3 {
-                text-align: center;
-                margin-bottom: 2rem;
-            }
-            img {
-                width: 100%;
-            }
+      > div {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+      }
+      h3 {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      img {
+        width: 100%;
+      }
 
-            .button-wrap {
-                display: flex;
-                padding: 2rem;
-                button {
-                    margin: 0 auto;
-                    font-family: "Montserrat";
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 14px;
-                    line-height: 24px;
-                    color: #ffffff;
-                    padding: 13px 45px;
-                    border: 0;
-                    background: #18206b;
-                    border-radius: 5px;
-                    cursor: pointer;
-                }
-            }
+      .button-wrap {
+        display: flex;
+        padding: 2rem;
+        button {
+          margin: 0 auto;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 24px;
+          color: #ffffff;
+          padding: 13px 45px;
+          border: 0;
+          background: #18206b;
+          border-radius: 5px;
+          cursor: pointer;
         }
+      }
     }
+  }
 }
 
 .Error404 {
-    padding: 100px 9.722vw;
-    height: calc(100vh - 75px);
+  padding: 100px 9.722vw;
+  height: calc(100vh - 75px);
 
-    h1 {
-        margin-bottom: 1.5rem;
-    }
+  h1 {
+    margin-bottom: 1.5rem;
+  }
 
-    p {
-        margin-bottom: 1rem;
-    }
+  p {
+    margin-bottom: 1rem;
+  }
 
-    button {
-        padding: 12px 45px;
-        font-family: "Montserrat";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 24px;
-        color: #ffffff;
-        background: #18206b;
-        border-radius: 5px;
-        border: 0;
-        cursor: pointer;
-    }
+  button {
+    padding: 12px 45px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #18206b;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-    .Contact {
-        .Contact-grid {
-            display: flex;
-            flex-direction: column-reverse;
-            padding: 40px 20px;
+  .Contact {
+    .Contact-grid {
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 40px 20px;
+    }
+  }
+  .OurActivities {
+    .main-block {
+      padding: 40px 20px;
+
+      .eventItem {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+
+        img {
+          width: 100%;
         }
+      }
     }
-    .OurActivities {
-        .main-block {
-            padding: 40px 20px;
+  }
 
-            .eventItem {
-                flex-direction: column;
-                align-items: stretch;
-                text-align: center;
-
-                img {
-                    width: 100%;
-                }
-            }
-        }
+  .Gallery {
+    .main-block {
+      padding: 7x2px 20px;
     }
+  }
 
-    .Gallery {
-        .main-block {
-            padding: 7x2px 20px;
-        }
-    }
-
-    .Error404 {
-        padding: 100px 20px;
-    }
+  .Error404 {
+    padding: 100px 20px;
+  }
 }
