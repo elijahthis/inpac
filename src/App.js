@@ -7,6 +7,7 @@ import {
   About,
   VisionMission,
   OurActivities,
+  Events,
   Error404,
 } from "./pages";
 import Header from "./components/Header";
@@ -33,7 +34,10 @@ function App() {
             </Route>
             <Route path="gallery" element={<Gallery />} />
             <Route path="contact" element={<Contact />} />
-            <Route path="events" element={<OurActivities />} />
+            <Route path="events">
+              <Route path="news" element={<Events />} />
+              <Route path="our-activities" element={<OurActivities />} />
+            </Route>
             <Route path="*" element={<Error404 />} />
           </Route>
         </Routes>
