@@ -47,13 +47,15 @@ const Contact = () => (
             </div>
           </a>
           <a
-            href="https://goo.gl/maps/oN6LRdPbfQnxgDFK7"
+            href="https://goo.gl/maps/LC4xBx2gcYvjU31C7"
             target="_blank"
             rel="noreferrer noopener"
           >
             <div className="flex">
               <IoLocation size={20} />
-              <p>1 Landbridge Avenue, Ado odo ota, Ogun, Nigeria</p>
+              <p>
+                Intouch B/stop, Opp. Health center, Otta road, itele Ogun state.
+              </p>
             </div>
           </a>
           <div>

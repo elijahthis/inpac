@@ -203,6 +203,17 @@
   }
 }
 
+.VideoSection {
+  // background: #18206b;
+  display: grid;
+  place-items: center;
+  padding: 20px 9.722vw;
+
+  video {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .Header {
     .blue-bar {
@@ -282,9 +293,13 @@
 
   .MainBanner {
     font-weight: 600;
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 25px;
+    line-height: 32px;
     padding: 2rem 20px;
+
+    .close-wrapper {
+      line-height: 64px;
+    }
   }
 
   .Footer {
@@ -300,5 +315,11 @@
       align-items: stretch;
       gap: 48px;
     }
+  }
+  .VideoSection {
+    // background: #18206b;
+    display: grid;
+    place-items: center;
+    padding: 20px;
   }
 }

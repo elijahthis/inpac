@@ -37,10 +37,18 @@ const Footer = () => (
       </div>
       <div className="list">
         <p className="title">CONTACT US</p>
-        <div>
-          <IoIosSend size={24} />
-          <p>1 Landbridge Avenue , Ado odo ota, Ogun, Nigeria</p>
-        </div>
+        <a
+          href="https://goo.gl/maps/LC4xBx2gcYvjU31C7"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <div style={{ display: "flex", flexDirection: "row", gap: "1rem" }}>
+            <IoIosSend size={24} />
+            <p>
+              Intouch B/stop, Opp. Health center, Otta road, itele Ogun state.
+            </p>
+          </div>
+        </a>
         <div>
           <BsTelephoneFill size={16} />
           <p>
