@@ -64,6 +64,18 @@
 	.bottom-blue {
 		height: 92px;
 		background-color: #18206b;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 4px;
+		justify-content: center;
+		p {
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 24px;
+			color: #ffffff;
+		}
 	}
 
 	.hero-text {
@@ -242,8 +254,12 @@
 .EntranceBanner {
 	text-align: center;
 	height: 342px;
-	background-image: url(/assets/images/entrance-bg.png);
+	background-image: url(/assets/images/entrance-bg2.png);
 	padding: 2rem;
+
+	> * {
+		visibility: hidden;
+	}
 
 	* {
 		color: #ffffff;
@@ -418,7 +434,7 @@
 		gap: 24px;
 
 		img {
-			height: 60px;
+			height: 40px;
 		}
 	}
 
@@ -453,5 +469,18 @@
 
 	.SubscribeSection {
 		padding: 4rem 20px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.Section1 {
+		.testimonials {
+			p {
+				padding: 2rem;
+			}
+			.testimonial {
+				text-align: center;
+			}
+		}
 	}
 }

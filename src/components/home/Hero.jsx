@@ -44,7 +44,10 @@ const Hero = () => (
 				<div className="big-bg big-bg--5"></div>
 			</SwiperSlide>
 		</Swiper>
-		<div className="bottom-blue"></div>
+		<div className="bottom-blue">
+			<p>Admission into Day and Boarding school is open!</p>
+			<p>(Nursery, Primary, and Secondary schools)</p>
+		</div>
 		<div className="hero-text">
 			<Flip bottom>
 				<h1>INTOUCH PRIVATE ACADEMY</h1>

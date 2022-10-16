@@ -88,7 +88,7 @@ export const Section1 = () => {
 						loop={true}
 						navigation={true}
 						pagination={{ clickable: true }}
-						autoplay={true}
+						autoplay={false}
 						speed={500}
 						// effect={"fade"}
 					>
@@ -96,7 +96,7 @@ export const Section1 = () => {
 							<SwiperSlide key={ind}>
 								<p className="testimonial">
 									{item.text}
-									<span className="quotes">“</span>
+									{/* <span className="quotes">“</span> */}
 									<span className="name">{item.name}</span>
 								</p>
 							</SwiperSlide>
