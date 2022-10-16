@@ -1,4 +1,5 @@
-import facility1 from "../../assets/images/facility-1.png";
+import person1 from "../../assets/images/person-1.png";
+import people1 from "../../assets/images/people-1.png";
 import "./styles.scss";
 // react-reveal
 import { Bounce } from "react-reveal";
@@ -7,7 +8,7 @@ const MissionVision = () => (
 	<section className="MissionVision">
 		<div className="big-block big-block--right">
 			<Bounce right>
-				<img src={facility1} alt="" />
+				<img src={person1} alt="" />
 				<div>
 					<h3>Our Vision</h3>
 					<p>
@@ -21,7 +22,7 @@ const MissionVision = () => (
 		</div>
 		<Bounce left delay={1000}>
 			<div className="big-block">
-				<img src={facility1} alt="" />
+				<img src={people1} alt="" />
 				<div>
 					<h3>Our Mission</h3>
 					<p>

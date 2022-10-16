@@ -54,7 +54,7 @@ const Hero = () => (
 			</Fade>
 			<Fade bottom delay={1000}>
 				<a
-					href="https://wa.me/+2347033417675"
+					href="https://wa.me/+2348033969007"
 					target="_blank"
 					rel="noreferrer noopener"
 				>
