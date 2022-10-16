@@ -1,4 +1,5 @@
 import { FeatureIcon1, FeatureIcon2, FeatureIcon3 } from "../../svgs";
+import { GoLightBulb } from "react-icons/go";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
@@ -14,9 +15,9 @@ import { Flip, Fade } from "react-reveal";
 
 export const Section1 = () => {
 	const featureList = [
-		{ name: "Innovation", icon: <FeatureIcon1 /> },
-		{ name: "Innovation", icon: <FeatureIcon2 /> },
-		{ name: "Innovation", icon: <FeatureIcon3 /> },
+		{ name: "Creativity", icon: <FeatureIcon1 /> },
+		{ name: "Innovation", icon: <GoLightBulb size={117} /> },
+		{ name: "Good character", icon: <FeatureIcon3 /> },
 	];
 	const testimonialList = [
 		{
