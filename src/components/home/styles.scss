@@ -404,6 +404,10 @@
 			padding: 40px 20px;
 			background-color: #ffffff;
 
+			h2 {
+				font-weight: 500;
+			}
+
 			p {
 				color: #999999;
 				font-size: 14px;
@@ -497,7 +501,7 @@
 	.Section1 {
 		.testimonials {
 			p {
-				padding: 2rem;
+				padding: 0 2rem;
 			}
 			.testimonial {
 				text-align: center;

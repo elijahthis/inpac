@@ -312,8 +312,8 @@
 				margin-bottom: 3rem;
 
 				img {
-					// width: 100%;
-					max-width: 370px;
+					width: 100%;
+					max-width: unset;
 				}
 
 				&--right {
