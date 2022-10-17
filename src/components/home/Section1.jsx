@@ -88,7 +88,7 @@ export const Section1 = () => {
 						loop={true}
 						navigation={true}
 						pagination={{ clickable: true }}
-						autoplay={false}
+						autoplay={true}
 						speed={500}
 						// effect={"fade"}
 					>
