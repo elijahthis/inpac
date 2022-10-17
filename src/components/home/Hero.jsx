@@ -40,9 +40,9 @@ const Hero = () => (
 			<SwiperSlide>
 				<div className="big-bg big-bg--4"></div>
 			</SwiperSlide>
-			<SwiperSlide>
+			{/* <SwiperSlide>
 				<div className="big-bg big-bg--5"></div>
-			</SwiperSlide>
+			</SwiperSlide> */}
 		</Swiper>
 		<div className="bottom-blue">
 			<p>Admission into Day and Boarding school is open!</p>
