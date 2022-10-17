@@ -53,7 +53,7 @@ const Hero = () => (
 				<h1>INTOUCH PRIVATE ACADEMY</h1>
 			</Flip>
 			<Fade bottom delay={1000}>
-				<p>Think quality. Think Intouch</p>
+				<p>Knowledge And Good Character</p>
 			</Fade>
 			<Fade bottom delay={1000}>
 				<a
