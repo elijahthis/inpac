@@ -37,18 +37,20 @@ const Footer = () => (
 			</div>
 			<div className="list">
 				<p className="title">CONTACT US</p>
-				<a
-					href="https://goo.gl/maps/LC4xBx2gcYvjU31C7"
-					target="_blank"
-					rel="noreferrer noopener"
-				>
-					<div style={{ display: "flex", flexDirection: "row", gap: "1rem" }}>
+
+				<div style={{ display: "flex", flexDirection: "row", gap: "1rem" }}>
+					<a
+						href="https://goo.gl/maps/LC4xBx2gcYvjU31C7"
+						target="_blank"
+						rel="noreferrer noopener"
+						style={{ display: "flex", flexDirection: "row", gap: "1rem" }}
+					>
 						<IoIosSend size={24} />
 						<p>
 							Intouch B/stop, Opp. Health center, Otta road, itele Ogun state.
 						</p>
-					</div>
-				</a>
+					</a>
+				</div>
 				<div>
 					<BsTelephoneFill size={16} />
 					<p>
