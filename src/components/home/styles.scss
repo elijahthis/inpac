@@ -15,6 +15,7 @@
 	.big-bg {
 		height: 100%;
 		background-size: cover !important;
+		background-position: center;
 
 		&--1 {
 			background: linear-gradient(
@@ -112,7 +113,7 @@
 			color: #ffffff;
 		}
 		button {
-			background: rgba(24, 32, 107, 0.34);
+			background: rgba(24, 32, 107, 0.7);
 			border: 0;
 			font-family: "Montserrat";
 			font-style: normal;
@@ -480,6 +481,19 @@
 }
 
 @media screen and (max-width: 1024px) {
+	.Hero {
+		.big-bg {
+			&--1 {
+				background: linear-gradient(
+						0deg,
+						rgba(24, 32, 107, 0.5),
+						rgba(24, 32, 107, 0.2)
+					),
+					url("../../assets/images/bg-1 small.png");
+			}
+		}
+	}
+
 	.Section1 {
 		.testimonials {
 			p {
