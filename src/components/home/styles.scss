@@ -68,7 +68,7 @@
 		background-color: #18206b;
 		text-align: center;
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		align-items: center;
 		gap: 4px;
 		justify-content: center;
@@ -503,6 +503,10 @@
 					),
 					url("../../assets/images/bg-3 small.png");
 			}
+		}
+
+		.bottom-blue {
+			flex-direction: column;
 		}
 	}
 
