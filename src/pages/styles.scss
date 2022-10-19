@@ -364,11 +364,21 @@
 
 	.Gallery {
 		.main-block {
-			padding: 7x2px 20px;
+			padding: 20px;
 		}
 	}
 
 	.Error404 {
 		padding: 100px 20px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.Gallery {
+		img {
+			width: 388px;
+			height: 291px;
+			object-fit: cover;
+		}
 	}
 }

@@ -11,7 +11,7 @@ const OurActivities = () => (
 			<Bounce right>
 				<div className="block">
 					<div>
-						<h2>1. SCHOOLS EVENT AND CALENDAR</h2>
+						<h2>SCHOOL EVENTS AND CALENDAR</h2>
 						<ul>
 							<li>Cultural day</li>
 							<li>Independent day</li>
