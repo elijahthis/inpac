@@ -1,27 +1,36 @@
 import { MainBanner } from "../components/MainBanner";
-import facility1 from "../assets/images/facility-1.png";
+import news1 from "../assets/images/news-1.png";
+import news2 from "../assets/images/news-2.png";
+import news3 from "../assets/images/news-3.png";
+import news4 from "../assets/images/news-4.png";
 import "./styles.scss";
 import { Flip, Fade, Bounce } from "react-reveal";
 
 const Events = () => {
 	const eventList = [
 		{
-			img: facility1,
-			title: "Our 4th Inter- House Sport was a success!",
-			date: "April 15th, 2022.",
-			desc: "Lorem ipsum dolor sit am volutpat. Dolor, nec, molestie risus lee dictneque elit risus vivamus venenatis pellentesque. Blandit platea in arcu eget scelerisque pis ornare vulputate id phasellus. Ultrices velit donec scelerisque id iaculis amet. Vesti. ",
+			img: news1,
+			title: "Content for Graphics design",
+			date: "October, 2022.",
+			desc: "Our students understand that color and images are expressways to delivering the intention and content of the mind to the world, this is how we help and watch our children create magic together.",
 		},
 		{
-			img: facility1,
-			title: "Our 4th Inter- House Sport was a success!",
-			date: "April 15th, 2022.",
-			desc: "Lorem ipsum dolor sit am volutpat. Dolor, nec, molestie risus lee dictneque elit risus vivamus venenatis pellentesque. Blandit platea in arcu eget scelerisque pis ornare vulputate id phasellus. Ultrices velit donec scelerisque id iaculis amet. Vesti.",
+			img: news2,
+			title: "Contents for Catering and home management.",
+			date: "October, 2022.",
+			desc: "We believe that age and gender is not a limitation for every child to explore their flare for organization, cookery, and skillful home management, this is how we show we care.",
 		},
 		{
-			img: facility1,
-			title: "Our 4th Inter- House Sport was a success!",
-			date: "April 15th, 2022.",
-			desc: "Lorem ipsum dolor sit am volutpat. Dolor, nec, molestie risus lee dictneque elit risus vivamus venenatis pellentesque. Blandit platea in arcu eget scelerisque pis ornare vulputate id phasellus. Ultrices velit donec scelerisque id iaculis amet. Vesti.",
+			img: news3,
+			title: "Fashion Illustration",
+			date: "October, 2022.",
+			desc: "Clothe artistry travels far and beyond to tell tales of a country/person's culture and achievement. To us, we believe there is a story to every attire and this way is how we have chosen to interpret values and advocate modesty in our society.",
+		},
+		{
+			img: news4,
+			title: "Contents for Photography",
+			date: "October, 2022.",
+			desc: "Here is how we never let the world's beautiful moments go unnoticed, we love to think of ourselves as one with the power to help you relive awesome memories by making them stay like they passed with time.",
 		},
 	];
 
@@ -37,7 +46,7 @@ const Events = () => {
 								<h3>{eventItem.title}</h3>
 								<button>{eventItem.date}</button>
 								<p>{eventItem.desc}</p>
-								<span>Read more...</span>
+								{/* <span>Read more...</span> */}
 							</div>
 						</div>
 					</Bounce>
