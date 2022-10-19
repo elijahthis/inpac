@@ -363,6 +363,7 @@
 }
 
 .VideoSection {
+	transform: translateY(-150px);
 }
 
 @media screen and (max-width: 1024px) {
@@ -519,5 +520,8 @@
 				text-align: center;
 			}
 		}
+	}
+	.VideoSection {
+		transform: translateY(-80px);
 	}
 }

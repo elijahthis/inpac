@@ -14,7 +14,7 @@ const Home = () => (
 		{/* <EntranceBanner /> */}
 		<FacilitiesSection />
 		{/* <SubscribeSection /> */}
-		<VideoSection />
+		{/* <VideoSection /> */}
 	</div>
 );
 

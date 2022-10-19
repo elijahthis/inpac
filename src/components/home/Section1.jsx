@@ -12,6 +12,7 @@ import {
 } from "swiper";
 // react-reveal
 import { Flip, Fade } from "react-reveal";
+import VideoSection from "./VideoSection";
 
 export const Section1 = () => {
 	const featureList = [
@@ -71,6 +72,9 @@ export const Section1 = () => {
 					))}
 				</div>
 			</div>
+
+			<VideoSection />
+
 			<div className="testimonials">
 				<h2>Testimonials</h2>
 				<div className="quotes">
