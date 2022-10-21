@@ -10,13 +10,13 @@ const Events = () => {
 	const eventList = [
 		{
 			img: news1,
-			title: "Content for Graphics design",
+			title: "Graphic design tutorial",
 			date: "October, 2022.",
 			desc: "Our students understand that color and images are expressways to delivering the intention and content of the mind to the world, this is how we help and watch our children create magic together.",
 		},
 		{
 			img: news2,
-			title: "Contents for Catering and home management.",
+			title: "Home management and catering practical",
 			date: "October, 2022.",
 			desc: "We believe that age and gender is not a limitation for every child to explore their flare for organization, cookery, and skillful home management, this is how we show we care.",
 		},
@@ -28,9 +28,9 @@ const Events = () => {
 		},
 		{
 			img: news4,
-			title: "Contents for Photography",
+			title: "Photography training session",
 			date: "October, 2022.",
-			desc: "Here is how we never let the world's beautiful moments go unnoticed, we love to think of ourselves as one with the power to help you relive awesome memories by making them stay like they passed with time.",
+			desc: "Here is how we never let the world's beautiful moments go unnoticed, we love to think of ourselves as ones with the power to help you relive awesome memories by making them stay like they never passed with time.",
 		},
 	];
 
